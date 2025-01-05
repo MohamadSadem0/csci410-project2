@@ -4,7 +4,7 @@ import '../models/announcement_model.dart';
 import '../models/event_model.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://192.168.0.104/project2';
+  static const String baseUrl = 'http://mohamadserhal.atwebpages.com/';
 
   static dynamic _processResponse(http.Response response) {
     try {
